@@ -4,6 +4,6 @@
     <NuGetPackageRoot>$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
   </PropertyGroup>
   <ImportGroup>
-    <Import Project="$(NuGetPackageRoot)\Microsoft.IoT.DeviceCore\1.0.3\build\Microsoft.IoT.DeviceCore.targets" Condition="Exists('$(NuGetPackageRoot)\Microsoft.IoT.DeviceCore\1.0.3\build\Microsoft.IoT.DeviceCore.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.iot.devicecore\1.0.3\build\Microsoft.IoT.DeviceCore.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.iot.devicecore\1.0.3\build\Microsoft.IoT.DeviceCore.targets')" />
   </ImportGroup>
 </Project>

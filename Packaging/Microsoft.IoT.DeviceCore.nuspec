@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Microsoft.IoT.DeviceCore</id>
+    <id>Zen.IoT.DeviceCore</id>
     <version>1.0.7</version>
     <title>Devices Core for Windows IoT</title>
     <authors>jbienzms, toolboc (pdecarlo)</authors>

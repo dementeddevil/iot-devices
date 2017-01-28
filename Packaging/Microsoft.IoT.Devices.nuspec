@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Microsoft.IoT.Devices</id>
+    <id>Zen.IoT.Devices</id>
     <version>1.0.7</version>
     <title>Devices for Windows IoT Core</title>
     <authors>jbienzms, toolboc (pdecarlo)</authors>
@@ -11,13 +11,14 @@
     <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288890</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Makes it easy to use sensors, displays, and other hardware devices on the Windows IoT Core platform.</summary>
-    <description>Makes it easy to use sensors, displays, and other hardware devices on the Windows IoT Core platform.</description>
+    <description>Makes it easy to use sensors, displays, and other hardware devices on the Windows IoT Core platform. You should use Microsoft.IoT.Devices package instead of this one - this only exists because the latest version of the Microsoft.IoT.Devices package has not yet been uploaded by the package author (at time of writing this)!
+    </description>
     <releaseNotes>This release takes a dependency on the Windows Runtime Component version of UnitsNet. This allows us to support a wide range of units of measure for sensor data as well as support conversions between those units of measure.</releaseNotes>
     <copyright>Copyright © Microsoft Corporation</copyright>
     <tags>sensors devices hardware displays microsoft windows iot iot-core</tags>
     <dependencies>
-      <dependency id="Microsoft.IoT.DeviceCore" version="1.0.7" />
-      <dependency id="Microsoft.IoT.DeviceHelpers" version="1.0.7" />
+      <dependency id="Zen.IoT.DeviceCore" version="1.0.7" />
+      <dependency id="Zen.IoT.DeviceHelpers" version="1.0.7" />
       <dependency id="UnitsNet.WindowsRuntimeComponent" version="3.33.0" />
     </dependencies>
   </metadata>
